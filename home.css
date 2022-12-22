@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   width:100%;
+    background:white;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    color: #090909;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    top: 0;
+    left: 0px;
+    background-color:rgb(81 76 76);;
+    display: flex;
+    align-items: center;
+}
+.brand-logo{
+    height: 43px;
+    margin-left: 17px;
+    padding-right: 14px;
+}
+.input{
+    height: 36px;
+    width: 40%;
+    position: relative;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    display: flex;
+}
+.input input {
+    width: 93%;
+    height: 30px;
+    border-color: transparent;
+    outline-color: transparent;
+    font-size: 13.9px;
+    color: black;
+    opacity: 90%;
+    font-weight: 520;
+}
+.input i {
+    font-size: 16px;
+    padding-left: 12px;
+    color: #858585;
+    font-weight: bold;
+    width: 16px;
+}
+.right-container{
+    display: flex;
+    margin-left: 510px;
+}
+.location{
+    position: relative;
+    text-decoration: none;
+    color: #c7cacb;
+    font-size: 14px;
+    margin-right: 18px;
+    top: 12px;
+}
+
+.location {
+    position: relative;
+    text-decoration: none;
+    color: #c7cacb;
+    font-size: 14px;
+    margin-right: 6px;
+    top: 9px;
+}
+
+.location:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.location i {
+    font-size: 12px;
+    padding-left: 2px;
+}
+.Signin{
+    background-color: #c4242b;
+    color: #000;
+    width: 75px;
+    height: 33px;
+    border: 2px solid;
+    border-radius: 21px;
+}
+.Signin:hover{
+    background-color: #794548;
+}
+.sub-navbar{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #858585;
+}
+.navitems{
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    left: 10px;
+    padding-top: 8px;
+}
+ul.navitems li{
+    display: inline;
+}
+.navitems li a {
+    display: inline;
+    text-decoration: none;
+    color: #0c0c0c;
+    font-size: 18px;
+    padding: 8px;
+}
+.navitems li a span{
+    padding-bottom: 12px;
+    font-size: 7px;
+    color: #c4242b;
+    font-weight: 600;
+    position: absolute;
+    top: 7px;
+    left: 144px;
+
+}
+.navitems li a:hover{
+    color: aliceblue;
+}
+.navitem1{
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    right: 10px;
+    padding-top: 10px;
+}
+ul.navitem1 li{
+    display: inline;
+}
+.navitem1 li a {
+    display: inline;
+    text-decoration: none;
+    color: #0c0c0c;
+    font-size: 18px;
+    padding: 8px;
+}
+.navitem1 li a span{
+    padding-bottom: 12px;
+    font-size: 7px;
+    color: #c4242b;
+    font-weight: 600;
+    position: absolute;
+    top: 6px;
+    left: 120px;
+}
+.navitem1 li a:hover{
+    color: aliceblue;
+}
+.title{
+    color: #090909;
+    padding-top: 28px;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 600;
+}
+.movie-list{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    padding-top: 0;
+    padding-left: -18px;
+}
+.movie{
+    position: relative;
+    width: 100%;
+}
+.card-container{
+   position: relative;
+   width: 95%;
+   padding-left: 10px;
+   height: 470px;
+   display: flex;
+   margin: 0 auto;
+   align-items: center;
+   overflow-x: auto;
+   overflow-y: visible;
+   scroll-behavior: smooth;
+}
+.card-container::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    position: relative;
+    min-width: 225px;
+    width: 225px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.card-img {
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+}
+
+.card-body {
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    background: #000;
+    padding: 10px;
+    display: flex;
+}
+
+.card-body p {
+    color: #fff;
+    position: absolute;
+    font-size: 16px;
+    padding-left: 38px;
+    top: 5px;
+}
+
+.card-body i{
+    color: #c4242b;
+    font-size: 15px;
+}
+
+.movie h2 {
+    padding-top: 10px;
+    font-size: 18px;
+}
+#seemore{
+    color: rgb(204 27 27);
+    margin-left: 550px;
+}
+
+.content{
+    width: 100%;
+    transition: all 0.3s;
+}
